@@ -5,7 +5,7 @@ Como funciona um Web Service? Web Service é uma solução utilizada na integra�
 
 A que se destina este Web Service? Este Web Service tem por finalidade consultar o código de barras de um produto (EAN-13/14) de todo o Mundo(pelo menos é a proposta) de forma simples e descomplicada. As informações retornadas após a consulta ao Web Service em jSON. O Código de barras informado deve conter apenas números com no mínimo 13 (treze caracateres), em caso de valores inválidos passados ao Web Service o mesmo realizará automaticamente um filtro, deixando passar apenas números. Se mesmo assim o valor informado não satisfazer o critério uma mensagem de erro será reportada.
 
-O formato a ser retornado pela consulta deve ser passado na URL junto com o CEP e deve ser compatível com o esperado pelo Web Service. Os valores válidos são: XML, JSON, JavaScript, formato texto PIPED, formato texto Querty.
+O formato a ser retornado pela consulta deve ser passado na URL junto com o código de barras e deve ser compatível com o esperado pelo Web Service. O valor válido retornado em JSON.
 
 A chave de acesso ao Web Service é obrigatória e deve ser passada na URL junto com o código de barras. Caso não possua uma chave de acesso, solicite no nosso web site: https://rapidapi.com/diogenes/api/ipage_cep/details
 
