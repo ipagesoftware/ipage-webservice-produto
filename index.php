@@ -8,7 +8,7 @@
         $value = preg_replace("/[^0-9]/", "", $_POST['txt_code_bar']);
         $url = "https://www.ipage.com.br/ws/v1/codebar/";
         $url .= $value . "/";
-        $url .= "07b36825b44111e9a80952540046af69";
+        $url .= "SUA CHAVE API";
         //
         $response = file_get_contents($url);
         $dados = (array)json_decode($response);
