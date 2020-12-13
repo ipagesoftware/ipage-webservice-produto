@@ -19,7 +19,7 @@ The most complex function has a cyclomatic complexity value of 5 while the media
 $(document).ready(function(){
   index.wait(false, function(result){
     index.init();// INICIALIZO A CLASSE
-    $("#txt_cnpj").focus();// PASSO O FOCO PARA A PRIMEIRA CAIXA DE TEXTO
+    $("#txt_code_bar").focus();// PASSO O FOCO PARA A PRIMEIRA CAIXA DE TEXTO
   });
 });
 // CLASS INDEX
